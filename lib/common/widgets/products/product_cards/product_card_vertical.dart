@@ -22,7 +22,7 @@ class TProductCardVertical extends StatelessWidget {
     final dark = THelperFunctions.isDarkMode(context);
     // Container with side padding, color, edges, radius and shadow,
     return GestureDetector(
-      onTap: () => Get.to(()=> ProductDetailScreen()),
+      onTap: () => Get.to(()=> const ProductDetailScreen()),
       child: Container(
         width: 180,
         padding: const EdgeInsets.all(1),

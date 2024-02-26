@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:t_store/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:t_store/bindings/general_bindings.dart';
+import 'package:t_store/utils/constants/colors.dart';
 import 'package:t_store/utils/constants/text_strings.dart';
 import 'package:t_store/utils/theme/theme.dart';
 
@@ -15,8 +16,14 @@ class App extends StatelessWidget {
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
+      initialBinding: GeneralBindings(),
       // initialBinding: GeneralBindings(),
-      home: const OnBoardingScreen(),
+      home: const Scaffold(
+        backgroundColor: TColors.primary,
+        body: Center(
+          child: CircularProgressIndicator(color: Colors.white,),
+        ),
+      ),
     );
   }
 }

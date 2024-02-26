@@ -29,7 +29,7 @@ class TSectionHeading extends StatelessWidget {
         ),
         if (showActionButton)
           TextButton(
-            onPressed: () {},
+            onPressed: onPressed,
             child: Text(buttonTitle),
           ),
       ],

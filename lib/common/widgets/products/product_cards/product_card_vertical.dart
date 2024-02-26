@@ -46,7 +46,7 @@ class TProductCardVertical extends StatelessWidget {
                     applyImageRadius: true,
                   ),
 
-                  /// --Sale Tag
+                  /// -- Sale Tag --
                   Positioned(
                     top: 12,
                     child: TRoundedContainer(

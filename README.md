@@ -1,3 +1,3 @@
-# t_store
+# E-Commerce Store
 
 A new Flutter project.

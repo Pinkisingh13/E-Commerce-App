@@ -1,8 +1,9 @@
-import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:t_store/data/repositories/authentication/authentication_repo.dart';
+import 'package:t_store/features/personalization/controllers/user_controller.dart';
 import 'package:t_store/utils/constants/image_strings.dart';
 import 'package:t_store/utils/helpers/network_manager.dart';
 import 'package:t_store/utils/popups/full_screen_loader.dart';
@@ -16,6 +17,14 @@ class LoginController extends GetxController {
   final email = TextEditingController();
   final password = TextEditingController();
   GlobalKey<FormState> loginFormKey = GlobalKey<FormState>();
+  final userController = Get.put(UserController());
+
+  @override
+  void onInit() {
+    email.text = localStorage.read('REMEMBER_ME_EMAIL') ?? "";
+    password.text = localStorage.read('REMEMBER_ME_PASSWORD') ?? "";
+    super.onInit();
+  }
 
   /// --Email and Password SignIn
   Future<void> emailAndPasswordSignIn() async {
@@ -46,6 +55,37 @@ class LoginController extends GetxController {
       //Login user using Email & Password Authentication
       final UserCredential = await AuthenticationRepository.instance
           .loginWithEmailAndPassword(email.text.trim(), password.text.trim());
+
+      // Remove Loader
+      TFullScreenLoader.stopLoading();
+
+      // Redirect
+      AuthenticationRepository.instance.screenRedirect();
+    } catch (e) {
+      TFullScreenLoader.stopLoading();
+      TLoaders.errorSnackbar(title: 'Oh Snap!', message: e.toString());
+    }
+  }
+
+  Future<void> googleSignIn() async {
+    try {
+      // Start Loading
+      TFullScreenLoader.openLoadingDialogue(
+          'Logging you in...', TImages.docerAnimation);
+
+      // check Internet Connectivity
+      final isConnected = await NetworkManager.instance.isConnected();
+      if (!isConnected) {
+        TFullScreenLoader.stopLoading();
+        return;
+      }
+
+      // Google Authentication
+      final userCredential =
+          await AuthenticationRepository.instance.signinWithGoogle();
+
+      // Save user Record
+      userController.saveUserRecord(userCredential);
 
       // Remove Loader
       TFullScreenLoader.stopLoading();

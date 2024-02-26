@@ -15,9 +15,9 @@ dependencies:
 
   # Utility Packages
   http: ^1.1.0
-  intl: ^0.18.1
+  intl: ^0.19.0
   logger: ^2.0.1
-  lottie: ^2.7.0
+  lottie: ^3.1.0
   url_launcher: ^6.1.12
   flutter_native_splash: ^2.3.1
   smooth_page_indicator: ^1.1.0
@@ -44,6 +44,7 @@ dependencies:
   firebase_auth: ^4.14.0
   cloud_firestore: ^4.13.1
   firebase_storage: ^11.6.6
+  google_sign_in: ^6.2.1
 
 
   #--------------- ./ PACKAGES END ------------------#
@@ -52,7 +53,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
 
 
 flutter:

@@ -1,5 +1,3 @@
-# E-Commerce Store
-
 <h1 align="center">Hi 👋, I'm Pinki Singh</h1>
 <h3 align="center">A passionate flutter developer from india</h3>
 <br></br>

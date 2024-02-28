@@ -19,10 +19,40 @@
   Now it contains all the screen, thanks for your love and support 🙏**
 
 ## Illustration
+<h3 align="center">Splash and Onboarding Screen</h3>
+
+![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/1.png)
+
+<h3 align="center">Login & Signup Screen</h3>
+
+![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/2.png)
+
+<h3 align="center">Popular Products & Home Screen</h3>
+
+![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/3.png)
+
+<h3 align="center">Store & Wishlist Screen</h3>
+
+![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/4.png)
+
+<h3 align="center">Setting and User Profile Screen</h3>
+
+![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/5.png)
+
+<h3 align="center">Addresses and My Order Screen</h3>
+
+![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/6.png)
+
+<h3 align="center">Product Overview & Reviews Screen</h3>
+
+![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/7.png)
+
+<h3 align="center">Cart and order review Screen</h3>
+
+![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/8.png)
+
 ## Installation Steps
-
 ### Clone the repository
-
 - Open your terminal or command prompt
 - Navigate to the directory where you want to save the project
 - Use the git clone command followed by the repository URL

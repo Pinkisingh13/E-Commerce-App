@@ -28,7 +28,7 @@
 - Use the git clone command followed by the repository URL
 
 ```sh
-git clone https://github.com/bagisto/opensource-ecommerce-mobile-app.git
+git clone https://github.com/Pinkisingh13/E-Commerce-App.git
 ```
 ### Install dependencies
 

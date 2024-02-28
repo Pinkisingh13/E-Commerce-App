@@ -2,7 +2,7 @@
 
 <p>A small attempt to make an E-Commerce Application developed using FlutterFire (Flutter+Firebase). I have tried to collect all the basic features of any E -Commerce App into this application. It uses Flutter Framework for App Frontend and Backend, and Firebase as server maintaining Databases and Storage requirments of the app. It uses Firebase Authentication, Firebase Cloud Firestore, Firebase Storage. I developed this application just for learning purpose. I am a beginner in flutter so if you found any error solve it.</p>
 
- ## 📱 Screens it Contains
+ ## 👨‍💻 Screens it Contains
   **=> Onboarding <br>
   => Login<br>
   => Forgot Password<br>
@@ -18,7 +18,7 @@
   => Bottom Navigation Bar<br>
   Now it contains all the screen, thanks for your love and support 🙏**
 
-## Illustration
+## 📱 Illustration
 <h3 align="center">Splash and Onboarding Screen</h3>
 
 ![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/1.png)
@@ -51,7 +51,7 @@
 
 ![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/8.png)
 
-## Installation Steps
+## ⚙️ Installation Steps
 ### Clone the repository
 - Open your terminal or command prompt
 - Navigate to the directory where you want to save the project

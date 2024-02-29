@@ -49,7 +49,7 @@
 
 <h3 align="center">Cart and order review Screen</h3>
 
-![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/8.png)
+![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/e-commerce-8.png)
 
 ## ⚙️ Installation Steps
 ### Clone the repository

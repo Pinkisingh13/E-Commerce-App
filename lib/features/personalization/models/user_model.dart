@@ -61,7 +61,7 @@ class UserModel {
     };
   }
 
-  //Factory method to create a UserModel from a firebase document snapshot.
+  // Factory method to create a UserModel from a firebase document snapshot.
   // factory UserModel.fromSnapshot(
   //     DocumentSnapshot<Map<String, dynamic>> document) {
   //   if (document.data() != null) {

@@ -51,6 +51,22 @@
 
 ![logo](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/e-commerce-8.png)
 
+
+## Live Demonstration
+
+<h3 align="center"> Splash & Create Account</h3>
+
+![video](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/EC%20create%20account.gif)
+
+<h3 align="center">Home & Store Screen</h3>
+
+![video](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/ECHomeScreen.gif)
+
+<h3 align="center"> Login, Wishlist & Profile Screen</h3>
+
+![video](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/EC%20login.gif)
+
+
 ## ⚙️ Installation Steps
 ### Clone the repository
 - Open your terminal or command prompt

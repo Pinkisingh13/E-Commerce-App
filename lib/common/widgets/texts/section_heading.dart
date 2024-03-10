@@ -32,7 +32,7 @@ class TSectionHeading extends StatelessWidget {
             onPressed: onPressed,
             child: Text(buttonTitle),
           ),
-      ],
+      ], 
     );
   }
 }

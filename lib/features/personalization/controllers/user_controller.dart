@@ -35,9 +35,10 @@ class UserController extends GetxController {
       }
     } catch (e) {
       TLoaders.warningSnackbar(
-          title: 'Data not Saved',
-          message:
-              'Something went wrong while saving your information. You can re-save your data in your Profile');
+        title: 'Data not Saved',
+        message:
+            'Something went wrong while saving your information. You can re-save your data in your Profile',
+      );
     }
   }
 }

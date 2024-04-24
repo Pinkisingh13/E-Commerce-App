@@ -122,5 +122,5 @@ flutter pub run build_runner build --delete-conflicting-outputs
 flutter run
 ```
 
-- 📄 Know about my experiences [https://t.ly/b7UuC](https://t.ly/b7UuC)
+- 📄 Know about my experiences [PinkiSinghResume](https://github.com/Pinkisingh13/Pinkisingh13/blob/main/PinkiSingh_Resume.pdf)
               
